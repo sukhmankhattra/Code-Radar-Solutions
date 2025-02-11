@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char str[10]="a";
-    char str1[10]="b";
+    char str[100]="a";
+    char str1[100]="b";
     scanf("%s",&str);
     scanf("%s",&str1);
     printf("You entered: %s and %s",str,str1);
