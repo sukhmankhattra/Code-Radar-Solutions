@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     char str[10]="a";
     char str1[10]="b";
-    scanf("%str",&a);
-    scanf("%str1",&b);
-    printf("%str and %str1",a,b);
+    scanf("%s",&str);
+    scanf("%s",&str1);
+    printf("%s and %s",str,str1);
     return 0;
 }
